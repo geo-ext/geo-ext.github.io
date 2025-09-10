@@ -1,6 +1,5 @@
-title: "GeoExT"
-tagline: "Geographic Information Extraction from Texts — Workshop Series"
-description: "Archive of the ECIR co-located workshop series (2023–2025)."
+title: "GeoExT Workshop Series"
+description: "Archive of the ECIR co-located GeoExT Workshops (2023–2025)."
 url: "https://geo-ext.github.io"
 baseurl: ""
 
@@ -10,8 +9,3 @@ minima:
 
 plugins:
   - jekyll-feed
-
-# （可选）如不想显示任何社交信息就删掉下面块
-# social_links:
-#   github: geo-ext
-#   email: geoext@dlr.de
