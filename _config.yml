@@ -1,6 +1,5 @@
 title: "GeoExT"
-tagline: ""        # avoid grey duplicate line under the site title
-description: ""    # keep empty to prevent extra blocks
+description: ""        # 留空，避免页脚显示副标题
 url: "https://geo-ext.github.io"
 baseurl: ""
 
