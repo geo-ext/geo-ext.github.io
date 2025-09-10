@@ -1,5 +1,6 @@
-title: "GeoExT Workshop Series"
-description: "Archive of the ECIR co-located GeoExT Workshops (2023–2025)."
+title: "GeoExT"
+tagline: ""        # avoid grey duplicate line under the site title
+description: ""    # keep empty to prevent extra blocks
 url: "https://geo-ext.github.io"
 baseurl: ""
 
