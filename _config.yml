@@ -1,5 +1,6 @@
-title: "GeoExT Workshop Series"
-description: ""        # 留空，避免页脚显示副标题
+title: "GeoExT Workshops"
+tagline: ""        # 置空，防止在页脚再显示
+description: ""    # 置空，防止在页脚再显示
 url: "https://geo-ext.github.io"
 baseurl: ""
 
