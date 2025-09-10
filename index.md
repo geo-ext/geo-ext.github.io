@@ -5,22 +5,12 @@ permalink: /
 ---
 
 <style>
-/* Hide Minima's auto headings and footer block */
-.page-heading, .site-footer { display: none; }
-
-/* Clean single-column, no bullets, modest size */
-.archive-list { list-style: none; padding-left: 0; margin: 2.5rem 0; }
-.archive-list li { margin: .5rem 0; }
-.archive-list a {
-  display: inline-block;
-  font-size: 1.05rem;
-  font-weight: 500;
-  text-decoration: none;
-}
-.archive-list a:hover { text-decoration: underline; }
+.intro{margin:1.25rem 0 .5rem;color:#666;font-size:.98rem}
 </style>
 
-<ul class="archive-list">
+<p class="intro">ECIR co-located workshop series on Geographic Information Extraction from Texts (2023–2025).</p>
+
+<ul>
   <li><a href="https://geo-ext.github.io/GeoExT2023/">First GeoExT Workshop — ECIR 2023, Dublin</a></li>
   <li><a href="https://geo-ext.github.io/GeoExT2024/">Second GeoExT Workshop — ECIR 2024, Glasgow</a></li>
   <li><a href="https://geo-ext.github.io/GeoExT2025/">Third GeoExT Workshop — ECIR 2025, Lucca</a></li>
