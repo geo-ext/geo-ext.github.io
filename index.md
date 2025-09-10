@@ -5,12 +5,18 @@ permalink: /
 ---
 
 <style>
-/* Hide Minima's big page heading */
-.page-heading { display: none; }
-/* Clean, no-bullet list */
-.archive-list { list-style: none; padding-left: 0; margin: 2rem 0; }
-.archive-list li { margin: .6rem 0; font-size: 1.15rem; font-weight: 600; }
-.archive-list a { text-decoration: none; }
+/* Hide Minima's auto headings and footer block */
+.page-heading, .site-footer { display: none; }
+
+/* Clean single-column, no bullets, modest size */
+.archive-list { list-style: none; padding-left: 0; margin: 2.5rem 0; }
+.archive-list li { margin: .5rem 0; }
+.archive-list a {
+  display: inline-block;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+}
 .archive-list a:hover { text-decoration: underline; }
 </style>
 
