@@ -1,7 +1,8 @@
-title: "GeoExT Workshop Series"
-description: "Official homepage and archive of the GeoExT Workshop Series on Geographic Information Extraction from Texts (GeoExT), co-located with ECIR 2023, 2024, and 2025."
-url: "https://geo-ext.github.io/"
-baseurl: ""  # 根路径
+title: "GeoExT"
+tagline: "Geographic Information Extraction from Texts — Workshop Series"
+description: "Archive of the ECIR co-located workshop series (2023–2025)."
+url: "https://geo-ext.github.io"
+baseurl: ""
 
 theme: minima
 minima:
@@ -10,7 +11,7 @@ minima:
 plugins:
   - jekyll-feed
 
-social_links:
-  github: geo-ext
-  twitter: geoext_workshop
-  email: geoext@dlr.de
+# （可选）如不想显示任何社交信息就删掉下面块
+# social_links:
+#   github: geo-ext
+#   email: geoext@dlr.de
