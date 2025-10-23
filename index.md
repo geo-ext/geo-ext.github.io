@@ -26,6 +26,8 @@ permalink: /
   <li><a href="https://geo-ext.github.io/GeoExT2023/">First GeoExT Workshop — ECIR 2023, Dublin</a></li>
   <li><a href="https://geo-ext.github.io/GeoExT2024/">Second GeoExT Workshop — ECIR 2024, Glasgow</a></li>
   <li><a href="https://geo-ext.github.io/GeoExT2025/">Third GeoExT Workshop — ECIR 2025, Lucca</a></li>
+    <li><a href="https://geo-ext.github.io/GeoExT2026/">Fourth GeoExT Workshop — ECIR 2026, Delft</a></li>
+
 </ul>
 
 <div id="map" role="img" aria-label="Workshop locations: Dublin, Glasgow, Lucca"></div>
@@ -43,7 +45,9 @@ permalink: /
   const editions = [
     { name:'First GeoExT Workshop — ECIR 2023, Dublin',  lat:53.3498, lon:-6.2603, url:'https://geo-ext.github.io/GeoExT2023/' },
     { name:'Second GeoExT Workshop — ECIR 2024, Glasgow', lat:55.8642, lon:-4.2518, url:'https://geo-ext.github.io/GeoExT2024/' },
-    { name:'Third GeoExT Workshop — ECIR 2025, Lucca',    lat:43.8420, lon:10.5080, url:'https://geo-ext.github.io/GeoExT2025/' }
+    { name:'Third GeoExT Workshop — ECIR 2025, Lucca',    lat:43.8420, lon:10.5080, url:'https://geo-ext.github.io/GeoExT2025/' },
+    { name:'Fourth GeoExT Workshop — ECIR 2025, Delft',    lat:51.99968, lon:4.36405, url:'https://geo-ext.github.io/GeoExT2026/' }
+
   ];
 
   const bounds = [];
