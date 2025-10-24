@@ -60,3 +60,6 @@ permalink: /
 </script>
 
 <noscript>Map requires JavaScript enabled.</noscript>
+
+<script data-goatcounter="https://geoext.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
