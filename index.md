@@ -17,7 +17,12 @@ permalink: /
 .archive-list li { margin:.5rem 0; }
 .archive-list a { text-decoration:none; font-weight:600; }
 .archive-list a:hover { text-decoration:underline; }
-#map { height: 360px; border-radius: 12px; margin: 1rem 0 0; }
+  #map {
+  width: 100%;
+  height: 520px;
+  border-radius: 12px;
+  margin: 1rem 0 0;
+}
 </style>
 
 <p class="intro">ECIR co-located workshop series on Geographic Information Extraction from Texts.</p>
