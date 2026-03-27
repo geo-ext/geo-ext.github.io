@@ -19,7 +19,7 @@ permalink: /
 .archive-list a:hover { text-decoration:underline; }
   #map {
   width: 100%;
-  height: 520px;
+  height: 560px;
   border-radius: 12px;
   margin: 1rem 0 0;
 }
