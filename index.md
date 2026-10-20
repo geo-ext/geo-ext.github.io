@@ -62,7 +62,7 @@ permalink: /
   editions.forEach(e => {
     bounds.push([e.lat, e.lon]);
     L.marker([e.lat, e.lon]).addTo(map)
-      .bindPopup('<a href="'+e.url+'">'+e.name+'</a>');
+      .bindPopup('<a href="'+e.url+'" style="white-space:nowrap">'+e.name+'</a>', { maxWidth: 600 });
   });
   map.fitBounds(bounds, { padding: [24,24] });
 </script>
