@@ -32,7 +32,7 @@ permalink: /
   <li><a href="https://geo-ext.github.io/GeoExT2024/">Second GeoExT Workshop — ECIR 2024, Glasgow</a></li>
   <li><a href="https://geo-ext.github.io/GeoExT2025/">Third GeoExT Workshop — ECIR 2025, Lucca</a></li>
     <li><a href="https://geo-ext.github.io/GeoExT2026/">Fourth GeoExT Workshop — ECIR 2026, Delft</a></li>
-  <li><a href="https://www.ecir2027.co.uk/">Fifth GeoExT Workshop — ECIR 2027, Southampton</a></li>
+  <li><a href="https://geo-ext.github.io/GeoExT2027/">Fifth GeoExT Workshop — ECIR 2027, Southampton</a></li>
 
 </ul>
 
@@ -53,7 +53,7 @@ permalink: /
     { name:'Second GeoExT Workshop — ECIR 2024, Glasgow', lat:55.8642, lon:-4.2518, url:'https://geo-ext.github.io/GeoExT2024/' },
     { name:'Third GeoExT Workshop — ECIR 2025, Lucca',    lat:43.8420, lon:10.5080, url:'https://geo-ext.github.io/GeoExT2025/' },
     { name:'Fourth GeoExT Workshop — ECIR 2026, Delft',    lat:51.99968, lon:4.36405, url:'https://geo-ext.github.io/GeoExT2026/' },
-    { name:'Fifth GeoExT Workshop — ECIR 2027, Southampton', lat:50.9025, lon:-1.4042, url:'https://www.ecir2027.co.uk/' }
+    { name:'Fifth GeoExT Workshop — ECIR 2027, Southampton', lat:50.9025, lon:-1.4042, url:'https://geo-ext.github.io/GeoExT2027/' }
 
   ];
 
@@ -61,7 +61,7 @@ permalink: /
   editions.forEach(e => {
     bounds.push([e.lat, e.lon]);
     L.marker([e.lat, e.lon]).addTo(map)
-      .bindPopup('<a href="'+e.url+'" style="white-space:nowrap">'+e.name+'</a>', { maxWidth: 600 });
+      .bindPopup('<a href="'+e.url+'" style="white-space:nowrap;display:inline-block">'+e.name+'</a>', { maxWidth: 600 });
   });
   map.fitBounds(bounds, { padding: [24,24] });
 </script>
